@@ -1,0 +1,22 @@
+#include<stdio.h>
+main()
+{
+	int v;
+	scanf("%d",&v);
+	{
+		if(v==1)
+		printf("MONDAY");
+		if(v==2)
+		printf("TUESDAY");
+		if(v==3)
+		printf("WEDNESDAY");
+		if(v==4)
+		printf("THURSDAY");
+		if(v==5)
+		printf("FRIDAY");
+		if(v==6)
+		printf("SATURDAY");
+		if(v==7)
+		printf("SUNDAY");
+	}
+}
